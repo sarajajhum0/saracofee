@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        form{background-color: rgb(229, 233, 233);
+             padding: 10px;
+             border: 5px solid rgb(200, 39, 143);
+            width: 500px;}
+        label{float: left;
+        padding-right:10px ;
+         width: 100px;
+         text-align: right;  }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset><legend></legend>
+    <header>
+        <h1>malmaha xuriyada</h1></header>
+        <nav>
+            <ul>
+                <a href="index.html">index</a>
+                <a href="service.html">service</a>
+                <a href="about.html">about</a>
+            </ul>
+        </nav>
+        <form action="">
+            <label for="fullname">full name:</label>
+            <input type="text" name="fullname" id="fullname" required placeholder="enter your full name"><br><br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" required><br><br>
+            <label for="mobile">mobile:</label>
+            <input type="tel" name="mobile" id="mobile"><br><br>
+            <label for="message">share your complaint</label><br>
+            <textarea name="appeals" id="appeals"></textarea><br><br>
+           <h2>whats your gender</h2>
+            <label for="MALE">male:</label>
+            <input type="radio" name="gender" id="male"><br><br>
+            <label for="female">female:</label>
+            <input type="radio" name="gender" id="female"><br><br>
+        
+        <h2>choose your district</h2> 
+    <input list="distract">
+    <datalist id="distract">
+    <option value="hodan">HODAN</option>
+    <option value="yaaqshiid">YAAQSHIID</option>
+    <option value="hilwaa">HILWAA</option>
+    <option value="waabari">WAABARI</option>
+    </datalist><br><br>
+    <hr>
+    <input type="submit" name="send" id="send" value="save data">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" name="clear" id="clear" value="clear controls">
+        </fieldset>
+        </form>
+</body>
+</html>
